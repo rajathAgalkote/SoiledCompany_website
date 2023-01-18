@@ -1,0 +1,1163 @@
+h1 {
+  font-size: 0mm;
+}
+
+img.logo {
+  width: 400px;
+  height: auto;
+  margin: 30px auto;
+}
+
+img.logo2 {
+  width: 400px;
+  height: auto;
+  margin: 30px auto 30px 30px;
+}
+
+@media only screen and (max-width: 400px) {
+  img.logo {
+    width: 300px;
+    height: auto;
+    margin: 30px auto;
+  }
+
+  img.logo2 {
+    width: 300px;
+    height: auto;
+    margin: 30px auto;
+  }
+}
+
+.dp {
+  width: 150px;
+  height: auto;
+}
+
+.le {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 150px;
+  height: auto;
+}
+
+.ri {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 150px;
+  height: auto;
+}
+
+.flexb {
+  margin: 25px auto;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-evenly;
+}
+
+.flexbx {
+  margin: 25px auto;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-evenly;
+}
+
+a.fonts:link {
+  color: rgb(0, 0, 0);
+}
+
+a.fonts:visited {
+  color: rgb(0, 0, 0);
+}
+
+a.fonts:hover {
+  color: rgb(56, 50, 50);
+}
+
+a.fonts:active {
+  color: blue;
+}
+
+.fonts {
+  font-family: acumin-pro, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.ai {
+  font-family: Bahnschrift;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 3em;
+}
+
+.fonts {
+  font-family: acumin-pro, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+p.font1 {
+  margin-top: 30px;
+}
+
+.box-navi {
+  float: left;
+  margin: auto;
+  justify-content: center;
+}
+
+.main-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  width: 90%;
+  position: relative;
+  min-height: 100vh;
+}
+
+.mainbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+  justify-content: space-around;
+  position: relative;
+  min-height: 100vh;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  float: right;
+  margin: auto;
+  width: 450px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.box > div {
+  margin: 2vw;
+}
+
+.box1 {
+  background-color: white;
+  width: 350px;
+  /* padding-top: 10px; */
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  height: 230px;
+  margin-bottom: 100px;
+}
+
+.box2 {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  height: auto;
+  margin: 0px;
+}
+
+a.box-text:link,
+a.box-text:visited {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  margin: 20px 0px;
+}
+
+a.box-text:hover,
+a.box-text:active {
+  background-color: rgb(36, 33, 33);
+}
+
+.box-text {
+  font-family: "acumin-pro", sans-serif;
+  font-size: 1.5em;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  width: 100%;
+  display: block;
+}
+
+.icon {
+  width: 20px;
+  height: auto;
+}
+
+.font1 {
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-size: 2em;
+  text-decoration: none;
+  font-weight: bolder;
+  justify-content: center;
+}
+
+.font2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.font3 {
+  font-family: "acumin-pro", sans-serif;
+  font-size: 1.4em;
+  text-decoration: none;
+  font-weight: none;
+}
+
+div.box1 {
+  float: left;
+}
+
+div.box2 {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.font4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: rgb(128, 128, 128);
+  text-decoration: none;
+}
+
+a.font4:link {
+  color: rgb(128, 128, 128);
+}
+
+a.font4:visited {
+  color: rgb(128, 128, 128);
+}
+
+a.font4:hover {
+  color: rgb(56, 50, 50);
+}
+
+a.font4:active {
+  color: blue;
+}
+
+footer {
+  display: block;
+  padding-top: 0px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1080px) {
+  footer {
+    padding-top: 0px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+  }
+}
+
+.dp-format {
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+  padding-top: 40px;
+  padding-left: 10px;
+  width: 400px;
+  justify-content: space-evenly;
+}
+
+.box-format {
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+  padding-top: 40px;
+  padding-left: 10px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.det1 {
+  display: block;
+}
+
+.det2 {
+  display: block;
+}
+
+.clear {
+  clear: both;
+}
+
+p.name {
+  font-family: "Tajawal", sans-serif;
+  font-size: 1.5em;
+  /* font-weight: bolder; */
+  text-align: center;
+  margin: 0em;
+  font-weight: 300;
+}
+
+p.designation {
+  font-family: "Tajawal", sans-serif;
+  font-size: 1.1em;
+  /* font-weight: bold; */
+  text-align: center;
+  margin: 0em;
+  font-weight: 300;
+}
+
+p.wh {
+  font-family: "Tajawal", sans-serif;
+  font-size: 0.9em;
+  /* font-weight: bold; */
+  text-align: center;
+  margin: 0em;
+}
+
+.wha {
+  font-family: "Tajawal", sans-serif;
+  font-size: 1.5em;
+  text-decoration: none;
+  font-weight: 540;
+  text-align: center;
+  margin: 0em;
+}
+
+a.wha:link {
+  color: rgb(0, 0, 0);
+}
+
+a.wha:visited {
+  color: rgb(0, 0, 0);
+}
+
+a.wha:hover {
+  color: rgb(56, 50, 50);
+}
+
+a.wha:active {
+  color: blue;
+}
+
+iframe {
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  margin: 70px 0px;
+}
+
+.head {
+  width: 100%;
+  font-family: Bahnschrift;
+  margin-top: 60px;
+}
+
+.left-box {
+  display: block;
+}
+
+.leftbox {
+  display: block;
+}
+
+.box3 {
+  font-family: Bahnschrift;
+  display: block;
+  background-color: white;
+  width: 450px;
+  height: auto;
+  margin-bottom: 40px;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+.box4 {
+  font-family: Bahnschrift;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: auto;
+  height: 300px;
+  justify-content: center;
+}
+
+.link-text {
+  font-family: "acumin-pro", sans-serif;
+  font-size: 1.5em;
+  text-decoration: none;
+  font-weight: 600;
+  width: 90%;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+}
+
+a.link-text:link,
+a.link-text:visited {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  margin: 20px auto;
+}
+
+a.link-text:hover,
+a.link-text:active {
+  background-color: rgb(36, 33, 33);
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 0mm;
+  }
+
+  img.logo {
+    width: 90vw;
+    height: auto;
+    margin: 30px auto;
+  }
+
+  img.logo2 {
+    width: 90vw;
+    height: auto;
+    margin: 30px auto;
+  }
+
+  .dp {
+    width: 100px;
+    height: auto;
+  }
+
+  .le {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 150px;
+    height: auto;
+  }
+
+  .ri {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 150px;
+    height: auto;
+  }
+
+  .flexb {
+    margin: 40px auto;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    justify-content: space-evenly;
+  }
+
+  .flexbx {
+    margin: 25px auto;
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    justify-content: space-evenly;
+  }
+
+  a.fonts:link {
+    color: rgb(0, 0, 0);
+  }
+
+  a.fonts:visited {
+    color: rgb(0, 0, 0);
+  }
+
+  a.fonts:hover {
+    color: rgb(56, 50, 50);
+  }
+
+  a.fonts:active {
+    color: blue;
+  }
+
+  .fonts {
+    font-family: acumin-pro, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+  }
+
+  .ai {
+    font-family: Bahnschrift;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 3em;
+  }
+
+  .fonts {
+    font-family: acumin-pro, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+  }
+
+  p.font1 {
+    margin-top: 30px;
+  }
+
+  .box-navi {
+    float: left;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .main-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    width: 90%;
+  }
+
+  .main-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    justify-content: space-around;
+  }
+
+  .left-box {
+    display: block;
+    width: 100%;
+  }
+
+  .leftbox {
+    display: block;
+    width: 100%;
+  }
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    float: right;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .box > div {
+    margin: 2vw;
+  }
+
+  .box1 {
+    background-color: white;
+    width: 350px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    height: auto;
+    margin-bottom: 100px;
+  }
+
+  .box2 {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: auto;
+  }
+
+  a.box-text:link,
+  a.box-text:visited {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    margin: 25px 0px;
+  }
+
+  a.box-text:hover,
+  a.box-text:active {
+    background-color: rgb(36, 33, 33);
+  }
+
+  .box-text {
+    font-family: "acumin-pro", sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+    display: block;
+  }
+
+  .icon {
+    width: 20px;
+    height: auto;
+  }
+
+  .font1 {
+    display: block;
+    font-family: "Oswald", sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: bolder;
+    justify-content: center;
+  }
+
+  .font2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
+  .font3 {
+    font-family: "acumin-pro", sans-serif;
+    font-size: 1.4em;
+    text-decoration: none;
+    font-weight: none;
+  }
+
+  div.box1 {
+    float: left;
+  }
+
+  div.box2 {
+    float: right;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  .font4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+  }
+
+  a.font4:link {
+    color: rgb(128, 128, 128);
+  }
+
+  a.font4:visited {
+    color: rgb(128, 128, 128);
+  }
+
+  a.font4:hover {
+    color: rgb(56, 50, 50);
+  }
+
+  a.font4:active {
+    color: blue;
+  }
+
+  footer {
+    padding-top: 0px;
+    vertical-align: baseline;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+  }
+
+  .box-format {
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    padding-top: 40px;
+    padding-left: 10px;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .dp-format {
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    padding-top: 40px;
+    padding-left: 4vw;
+    width: 80vw;
+    justify-content: space-evenly;
+  }
+  .det1 {
+    display: block;
+  }
+
+  .det2 {
+    display: block;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  p.name {
+    font-family: "Tajawal", sans-serif;
+    font-size: 1.5em;
+    /* font-weight: bolder; */
+    text-align: center;
+    margin: 0em;
+    font-weight: 300;
+  }
+
+  p.designation {
+    font-family: "Tajawal", sans-serif;
+    font-size: 1.1em;
+    /* font-weight: bold; */
+    text-align: center;
+    margin: 0em;
+    font-weight: 300;
+  }
+
+  p.wh {
+    font-family: "Tajawal", sans-serif;
+    font-size: 0.9em;
+    /* font-weight: bold; */
+    text-align: center;
+    margin: 0em;
+  }
+
+  .wha {
+    font-family: "Tajawal", sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: 540;
+    text-align: center;
+    margin: 0em;
+  }
+
+  a.wha:link {
+    color: rgb(0, 0, 0);
+  }
+
+  a.wha:visited {
+    color: rgb(0, 0, 0);
+  }
+
+  a.wha:hover {
+    color: rgb(56, 50, 50);
+  }
+
+  a.wha:active {
+    color: blue;
+  }
+
+  iframe {
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    margin: 70px 0px;
+  }
+
+  .head {
+    width: 100%;
+    font-family: Bahnschrift;
+    margin-top: 60px;
+  }
+
+  .box3 {
+    font-family: Bahnschrift;
+    display: block;
+    background-color: white;
+    width: 450px;
+    height: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .box4 {
+    font-family: Bahnschrift;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: auto;
+    height: auto;
+    justify-content: center;
+  }
+
+  .link-text {
+    font-family: "acumin-pro", sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    width: 90%;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+    text-decoration: none;
+    margin: 20px auto;
+  }
+
+  a.link-text:link,
+  a.link-text:visited {
+    background-color: black;
+  }
+
+  a.link-text:hover,
+  a.link-text:active {
+    background-color: rgb(36, 33, 33);
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+}
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+}
+
+/* ----------- Google Pixel XL ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- Galaxy Tab 2 ----------- */
+
+/* Portrait and Landscape */
+@media (min-device-width: 800px) and (max-device-width: 1280px) {
+}
+
+/* Portrait */
+@media (max-device-width: 800px) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media (max-device-width: 1280px) and (orientation: landscape) {
+}
+
+/* ----------- Galaxy Tab S ----------- */
+
+/* Portrait and Landscape */
+@media (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media (max-device-width: 800px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+@media (max-device-width: 1280px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- Nexus 7 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 601px) and (device-height: 906px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {
+}
+
+/* Portrait */
+@media screen and (device-width: 601px) and (device-height: 906px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media screen and (device-width: 601px) and (device-height: 906px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: landscape) {
+}
+
+/* ----------- Nexus 9 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {
+}
+
+/* Portrait */
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: landscape) {
+}
+
+/* ----------- Kindle Fire HD 7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+}
+
+/* ----------- Kindle Fire HD 8.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+}
+
+@media only screen and (max-width: 599px) {
+  article {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  article {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  article {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
+}
